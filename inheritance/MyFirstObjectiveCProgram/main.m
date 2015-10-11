@@ -7,17 +7,32 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Shape.h"
 #import "Circle.h"
+#import "Button.h"
+#import "Rectangle.h"
 
 int main()
 {
-    Shape *shape = [[Shape alloc] init];    
-    NSLog(@"shape area %f", [shape area]);
+    
+    // COMPOSITION
+
+    // Create circle button
     
     Circle *round = [[Circle alloc] init];
     round.radius = 25;
     NSLog(@"circle area %f", [round area]);
+    
+    Button *roundButton = [[Button alloc] init];
+    roundButton.shape = round;
+    
+    // Create square button
+
+    Rectangle *square = [[Rectangle alloc] init];
+    square.height = 25;
+    square.width = 25;
+    
+    Button *squareButton = [[Button alloc] init];
+    squareButton.shape = square;
     
     return 0;
 }

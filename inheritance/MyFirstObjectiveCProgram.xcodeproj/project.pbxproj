@@ -11,6 +11,8 @@
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
 		AE1DC7931BCAF2380022420B /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7921BCAF2380022420B /* Shape.m */; settings = {ASSET_TAGS = (); }; };
 		AE1DC7961BCAF2880022420B /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7951BCAF2880022420B /* Circle.m */; settings = {ASSET_TAGS = (); }; };
+		AE1DC7991BCAF5CB0022420B /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7981BCAF5CB0022420B /* Button.m */; settings = {ASSET_TAGS = (); }; };
+		AE1DC79C1BCAF74E0022420B /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC79B1BCAF74E0022420B /* Rectangle.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AE1DC7921BCAF2380022420B /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		AE1DC7941BCAF2880022420B /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		AE1DC7951BCAF2880022420B /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		AE1DC7971BCAF5CB0022420B /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		AE1DC7981BCAF5CB0022420B /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		AE1DC79A1BCAF74E0022420B /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		AE1DC79B1BCAF74E0022420B /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				AE1DC7921BCAF2380022420B /* Shape.m */,
 				AE1DC7941BCAF2880022420B /* Circle.h */,
 				AE1DC7951BCAF2880022420B /* Circle.m */,
+				AE1DC7971BCAF5CB0022420B /* Button.h */,
+				AE1DC7981BCAF5CB0022420B /* Button.m */,
+				AE1DC79A1BCAF74E0022420B /* Rectangle.h */,
+				AE1DC79B1BCAF74E0022420B /* Rectangle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -163,6 +173,8 @@
 				AE1DC7961BCAF2880022420B /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
 				AE1DC7931BCAF2380022420B /* Shape.m in Sources */,
+				AE1DC7991BCAF5CB0022420B /* Button.m in Sources */,
+				AE1DC79C1BCAF74E0022420B /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
